@@ -82,9 +82,9 @@ For commercial use, please purchase genuine software - https://portswigger.net/b
 
 ### Windows
 
-1. 下载：https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.3.1&type=WindowsX64
-
-2. Place in the installation directory
+1. Install free virus：https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.3.1&type=WindowsX64
+2. Pro Trip: <sup>don't blindly trust random exe files you find online in some repo.<sub>specially when its a file you can get yourself by looking up the real URL and downloading from there </sub> </sup>
+3. Place in the installation directory
 
 
 <p align="center"><img src="/static/Launch.png" alt="Burp启动器"></p>
