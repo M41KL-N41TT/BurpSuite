@@ -3,6 +3,12 @@
 <h1 align="center">Welcome to Burp Suite loader👋</h1>
 
 <div align="center">
+  <a href="#"><img src="https://madewithlove.org.in/badge.svg"></a>
+  <a href="https://buymeacoffee.com/cyb3rzest"><img src="https://img.shields.io/badge/buy%20me%20a%20Coffee%20-donate-red"></a>
+  <a href="https://twitter.com/cyb3rzest/"><img src="https://img.shields.io/badge/twitter-%40CyberZeast-blue.svg"></a>
+  <a href="https://github.com/cyb3rzest/Vasuki/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg"></a>
+  <a href="https://github.com/cyb3rzest?tab=followers"><img src="https://img.shields.io/badge/github-%40cyb3rzest-red"></a>
   <!-- Platform -->
   <a href="Platform">
     <img src="https://img.shields.io/badge/Platform-Windows%E3%80%81Linux%E3%80%81macOS-green?color=gerrn&style=flat-square" alt="Platform">
@@ -13,7 +19,7 @@
   </a>
   <!-- ❤︎ -->
   <a href="❤︎">
-    <img src="https://img.shields.io/badge/❤︎-致敬永远好奇的心-green?color=gerrn&style=flat-square" alt="❤︎">
+    <img src="https://img.shields.io/badge/green?color=gerrn&style=flat-square" alt="❤︎">
   </a>
 </div>
 <br>
@@ -33,128 +39,67 @@ For commercial use, please purchase genuine software - https://portswigger.net/b
 
 
 
-<h1 align="center"></h1>
-
-<br><p align="center" >The reason I built this project again after two years was because I saw Master SCZ's <a href="https://mp.weixin.qq.com/s/4KXxKdnPeWqsEsylObhg8w">public article</a> and thought I'd write a more detailed document to to help students who need it</p
-
-<h1 align="center"></h1>
-
-
-
 ### BurpSuitePro Download
 
 
-&ensp;&ensp;&ensp;&ensp;https://portswigger.net/burp/releases
+&ensp;&ensp;&ensp;&ensp;:https://portswigger.net/burp/releases/download?product=pro&version=2023.11.1.1&type=Jar
 
+> wget -O burpsuite_pro.jar --quiet --show-progress https://portswigger.net/burp/releases/download?product=pro&version=2023.11.1.1&type=Jar
 
 ### Loader
 
+Version I found only later that seemed to work better for me:
 
-&ensp;&ensp;&ensp;&ensp;<a href="https://raw.githubusercontent.com/x-Ai/BurpSuite/main/BurpSuiteLoader.jar">BurpSuiteLoader.jar( 5.93KB)</a>
+&ensp;&ensp;&ensp;&ensp;<a href="https://github.com/m41k1n4177/BurpSuite/blob/main/loader.jar">loader.jar</a>
 
-- SHA256: 23499F88ED11FA69E6A9BF5B17594B326EF71C631D28DA804F02C3EF08C68150
+> wget -O loader.jar --quiet --show-progress https://github.com/m41k1n4177/BurpSuite/blob/main/loader.jar
 
-- MD5: 694738870DB8D69A6F1BEB6D05CD0999
+default loader provided by parent repo, also worked:
 
+> wget -O BurpSuiteLoader.jar --quiet --show-progress https://github.com/m41k1n4177/BurpSuite/blob/main/BurpSuiteLoader.jar
 
-### Windows 启动器源码
-
-&ensp;&ensp;&ensp;&ensp;<a href="https://raw.githubusercontent.com/x-Ai/BurpSuite/main/BurpSuiteLoadSources.zip"> BurpSuiteLoadSources.zip(19.3KB)</a>
-
-- SHA256: BDF5FAC98B8709532E721A75A6EFD491BFC54E09739436119BDBFCBCA12A82B5
-
-- MD5: 91231D19E6EB35CCA959252EF01ECEA9
+&ensp;&ensp;&ensp;&ensp;<a href="https://raw.githubusercontent.com/x-Ai/BurpSuite/main/BurpSuiteLoader.jar">BurpSuiteLoader.jar</a>
 
 
+
+#
 ## 🚀 Usage
 
 
 <div align="center">
 
-  <sub>！ We strongly recommend downloading the installer to install it and use it ! </sub>
-
+  <sub>！ We strongly recommend <b><u>AGAINST</u></b> downloading any all-in-one installer and using it ! </sub>
+      <p>Try instead download Burp Pro from authentic source and based on steps provided in this repository, activate burp via launching burp with available loader</p>
 </div>
+
+# Burp Suite Professional Installation steps for ARCH LINUX (Untested/WIP)
+	--> `paru -S burpsuite-pro \ `
+        --> `zulu-19-bin \`
+	--> `java-environment-common java-runtime-common  jre-openjdk jre17-openjdk archlinux-java-run  -y`
+        --> `sudo archlinux-java set zulu-19`
+	--> `echo "java --add-opens=java.desktop/javax.swing=ALL-UNNAMED--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:$(pwd)/loader.jar -noverify -jar /usr/share/burpsuite-pro/burpsuite-pro.jar &" | sudo tee -a burpsuite`
+        --> `chmod 777 burpsuite`
+        --> `java -jar loader.jar ; & sleep 1s (./burpsuite)`
 
 
 ### Command line
 
+Old
+
 > java -noverify -Dsun.java2d.d3d=false -Dsun.java2d.noddraw=true --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED -javaagent:BurpSuiteLoader.jar -jar burpsuite_pro.jar
 
-### Windows
+New
 
-1. Install free virus：https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.3.1&type=WindowsX64
-2. Pro Trip: <sup>don't blindly trust random exe files you find online in some repo.<sub>specially when its a file you can get yourself by looking up the real URL and downloading from there </sub> </sup>
-3. Place in the installation directory
-
-
-<p align="center"><img src="/static/Launch.png" alt="Burp启动器"></p>
-
-&ensp;&ensp;&ensp;&ensp;<a href="https://raw.githubusercontent.com/x-Ai/BurpSuite/main/BurpSuite.zip">BurpSuite.zip(9.15KB)</a>
-
-
-- SHA256: 897AD7E16EC063EEAFAB9AEF4913851474B70594C0252354B2E69A09CA74C809
-
-- MD5: 9C02C757FBE0163B54A7633D0BB91226
-
-
-&ensp;&ensp;3. Using the compiled launcher
-
-
-### macOS
-
-1. Download macOS (Intel/M1)
-
-2. Place the loader to the following path
-
-> /Applications/Burp Suite Professional.app/Contents/java/app
-
-
-<p align="center"><img src="/static/macOSLoader路径.png" alt=" macOSLoader path"></p>
-
-
-&ensp;&ensp;3. Modify the contents of the following path file
-
-
-> /Applications/Burp Suite Professional.app/Contents/Info.plist
-
-<p align="center"><img src="/static/InfoPlistpath.png" alt="Info.plist path"></p>
-
-
-&ensp;&ensp;4. Modify the Info.plist file by inserting the following statement after ``<string>-Dexe4j.moduleName=$APP_PACKAGE</string>`
-
-
-```
-
-......
-
-<string>-Dexe4j.moduleName=$APP_PACKAGE</string>
-
-<string>-noverify</string>
-
-<string>-javaagent:$APP_PACKAGE/Contents/Resources/app/BurpSuiteLoader.jar</string>
-
-```
-
-&ensp;&ensp;5. Use the BurpSuite shortcut in the launchpad
-
-## 💻展示
-
-
-<p align="center"><img src="/static/Main.png" alt="BurpSuitePro"></p>
+> java  -noverify --add-opens=java.desktop/javax.swing=ALL-UNNAMED--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:$(pwd)/loader.jar -jar burpsuite_pro.jar
 
 
 
 ## 📝 Discussion
 
 
-If you have questions or better suggestions on how to use it, you can ask [issue](https://github.com/x-Ai/BurpSuite/issues).
+If you have questions or better suggestions on how to use it, you can ask [issue](https://github.com/m41k1n4177/BurpSuite/issues).
 
 
-## ❤️ Acknowledgements 
+## ❤️ Acknowledgements
 
-
-- **surferxyz** && **scz** Both of you greats
-
-- <a href="https://github.com/Hywell">Hywell</a> 
-
-
+shout out to the guy that got pwnd/ratted so hard he decided to go out and comment in every random burp loader GitHub repo that he was infected
