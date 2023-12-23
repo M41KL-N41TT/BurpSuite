@@ -1,105 +1,126 @@
-<p align="center"><img src="https://portswigger.net/burp/communitydownload/images/burp-pro-logo.svg" alt="Burp Suite Professional logo" width="360" height="260"></p>
+<p align="center"><img width="400" src="https://github.com/m41k1n4177/BurpSuite/assets/106442797/2ac09e0d-fbce-400b-982b-d30f14486f26"/>
 
-<h1 align="center">Welcome to Burp Suite loader👋</h1>
+<img src="https://portswigger.net/burp/communitydownload/images/burp-pro-logo.svg" alt="Burp Suite Professional logo" width="1080" height="400">
+
+<h1 align="center">Welcome to <b>Burp Suite loader</b>👋</h1>
 
 <div align="center">
-  <a href="#"><img src="https://madewithlove.org.in/badge.svg"></a>
-  <a href="https://buymeacoffee.com/cyb3rzest"><img src="https://img.shields.io/badge/buy%20me%20a%20Coffee%20-donate-red"></a>
-  <a href="https://twitter.com/cyb3rzest/"><img src="https://img.shields.io/badge/twitter-%40CyberZeast-blue.svg"></a>
-  <a href="https://github.com/cyb3rzest/Vasuki/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg"></a>
-  <a href="https://github.com/cyb3rzest?tab=followers"><img src="https://img.shields.io/badge/github-%40cyb3rzest-red"></a>
+ <a href="#"><img src="https://madewithlove.now.sh/ee?heart=true&colorB=%230091eb&template=for-the-badge" alt="Made with love in Estonia">
+</a>
+ <a href="https://buymeacoffee.com/m41k1n4177"><img src="https://img.shields.io/badge/buy%20me%20a%20Coffee%20-donate-red?style=for-the-badge"></a>
+ <a href="https://github.com/m41k1n4177/BurpSuite">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/m41k1n4177/BurpSuite?style=for-the-badge">
+ </a>
+ <a href="https://t.me/tomkabel/"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></img></a>
+ <a href="https://github.com/m41k1n4177/Vasuki/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge"></a>
+ <a href="#"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/72/java_button_icon_151928.png"></a>
   <!-- Platform -->
   <a href="Platform">
-    <img src="https://img.shields.io/badge/Platform-Windows%E3%80%81Linux%E3%80%81macOS-green?color=gerrn&style=flat-square" alt="Platform">
-  </a>
-  <!-- License -->
-  <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/x-Ai/BurpSuite?color=gerrn&style=flat-square" alt="LICENSE">
-  </a>
-  <!-- ❤︎ -->
-  <a href="❤︎">
-    <img src="https://img.shields.io/badge/green?color=gerrn&style=flat-square" alt="❤︎">
-  </a>
+ <a href="https://archlinux.org"><img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"></a>
+  <a href="https://linux.org"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a>
+   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Platform">
+ </a>
+ <a href=""><img src="https://img.shields.io/badge/Portswigger-F45E3F?style=for-the-badge&logo=Portswigger&logoColor=f5fff5"/></a>
+ <!-- License -->
+ <a href="LICENSE">
+   <img src="https://img.shields.io/github/license/m41k1n4177/BurpSuite.svg?style=for-the-badge" alt="LICENSE">
+ </a>
+ <!-- ❤︎ -->
+ <a href="❤︎">
+   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="❤︎">
+ </a>
 </div>
 <br>
 
-<div align="center">
+<div align="left">
 
-  ⚡️Burp Suite Professional 2023.*. * Loader Updated，Have Fun ⚡️<br><br>
+# ⚡️ Burp Suite Professional 2024 Loader ⚡️
 
-For commercial use, please purchase genuine software - https://portswigger.net/buy/pro<br>
-
-  ！ <a href="https://github.com/x-Ai/BurpSuiteLoader" >Old project</a> has been complained about by PortSwigger resulting in DMCA ! *Not obfuscated, please see the jar package for yourself*
-
-</div>
+**Note:** For commercial use, please purchase genuine software from <a href="https://portswigger.net/Burp/pro" target="_blank">
+  <img src="https://portswigger.net/content/images/logos/portswigger-logo.svg" alt="PortSwigger" style="max-width:100%; height:50px;">
+</a>
 
 
-#### **<p align="center" >✨If this project helps you, click Star (to Original Repository) 🥰✨</p>**
+**⚠️ Notice:** The previous version of this project was subject to a DMCA complaint from PortSwigger due to lack of obfuscation. Please review the JAR package for clarity.
+
+If this project has been helpful, consider giving it a ⭐️ [here](https://github.com/x-Ai/BurpSuite) 🥰.
+
+## Burp Suite Professional Download
+
+- [Download Burp Suite Professional 2023.11.1.1 JAR](https://portswigger.net/burp/releases/download?product=pro&version=2023.11.1.1&type=Jar)
+  ```bash
+  wget -O burpsuite_pro.jar --quiet --show-progress https://portswigger.net/burp/releases/download?product=pro&version=2023.11.1.1&type=Jar
+
+## Loader Options
+
+### 1. Loader (Version Recommended)
+[Download Loader (Recommended)](https://github.com/m41k1n4177/BurpSuite/blob/main/loader.jar)
+
+```bash
+wget -O loader.jar --quiet --show-progress https://github.com/m41k1n4177/BurpSuite/blob/main/loader.jar
+```
+### 2. Default Loader (Parent Repo)
+[Download Default Loader](https://github.com/m41k1n4177/BurpSuite/blob/main/BurpSuiteLoader.jar)
+
+```bash
+wget -O BurpSuiteLoader.jar --quiet --show-progress https://github.com/m41k1n4177/BurpSuite/blob/main/BurpSuiteLoader.jar
+```
+Choose the loader that works best for your requirements. If in doubt, opt for the recommended version
+
+## 🚀 Installation
+
+⚠️ **Note:** We strongly advise **against** downloading any all-in-one installer for security reasons. Instead, follow the steps provided in this repository to download Burp Pro from an authentic source and activate it using the available loader.
+
+## Installation Steps for Burp Suite Professional on  <a href="https://archlinux.org"><img src="https://img.shields.io/badge/Arch_Linux-1793D1?&logo=arch-linux&logoColor=white"></a>
 
 
+### 1. Install dependencies & highest supported Java runtime (19):
 
-### BurpSuitePro Download
+```bash
+paru -S burpsuite-pro zulu-19-bin java-environment-common java-runtime-common jre-openjdk jre17-openjdk archlinux-java-run --noconfirm
+```
 
+### 2. Configure system to use new Java 19 runtime:
+```bash
+sudo archlinux-java set zulu-19```
+```
 
-&ensp;&ensp;&ensp;&ensp;:https://portswigger.net/burp/releases/download?product=pro&version=2023.11.1.1&type=Jar
+### 3. Launch the previously installed authentic Burp Pro Java JAR with Burp Pro loader jar and turn it into an executable. 
+```bash
+echo "java --add-opens=java.desktop/javax.swing=ALL-UNNAMED--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:$(pwd)/loader.jar -noverify -jar /usr/share/burpsuite-pro/burpsuite-pro.jar &" | sudo tee -a burpsuite
+```
 
-> wget -O burpsuite_pro.jar --quiet --show-progress https://portswigger.net/burp/releases/download?product=pro&version=2023.11.1.1&type=Jar
+### 4. Specify new created executable with executable file;
+```bash
+chmod 777 burpsuite
+```
 
-### Loader
+### 5. Launch provided loader-activator, followed by launch of custom made burpsuite executable 
+```bash
+java -jar loader.jar & sleep 1s (./burpsuite)
+```
 
-Version I found only later that seemed to work better for me:
+## Java helper command for injecting previosuly downloaded activator into Burp. 
 
-&ensp;&ensp;&ensp;&ensp;<a href="https://github.com/m41k1n4177/BurpSuite/blob/main/loader.jar">loader.jar</a>
+### 1. Updated Java helper command (Recommended)
+```
+java -noverify --add-opens=java.desktop/javax.swing=ALL-UNNAMED--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:$(pwd)/loader.jar -jar burpsuite_pro.jar
+```
 
-> wget -O loader.jar --quiet --show-progress https://github.com/m41k1n4177/BurpSuite/blob/main/loader.jar
-
-default loader provided by parent repo, also worked:
-
-> wget -O BurpSuiteLoader.jar --quiet --show-progress https://github.com/m41k1n4177/BurpSuite/blob/main/BurpSuiteLoader.jar
-
-&ensp;&ensp;&ensp;&ensp;<a href="https://raw.githubusercontent.com/x-Ai/BurpSuite/main/BurpSuiteLoader.jar">BurpSuiteLoader.jar</a>
-
-
-
-#
-## 🚀 Usage
-
-
-<div align="center">
-
-  <sub>！ We strongly recommend <b><u>AGAINST</u></b> downloading any all-in-one installer and using it ! </sub>
-      <p>Try instead download Burp Pro from authentic source and based on steps provided in this repository, activate burp via launching burp with available loader</p>
-</div>
-
-# Burp Suite Professional Installation steps for ARCH LINUX (Untested/WIP)
-	--> `paru -S burpsuite-pro \ `
-        --> `zulu-19-bin \`
-	--> `java-environment-common java-runtime-common  jre-openjdk jre17-openjdk archlinux-java-run  -y`
-        --> `sudo archlinux-java set zulu-19`
-	--> `echo "java --add-opens=java.desktop/javax.swing=ALL-UNNAMED--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:$(pwd)/loader.jar -noverify -jar /usr/share/burpsuite-pro/burpsuite-pro.jar &" | sudo tee -a burpsuite`
-        --> `chmod 777 burpsuite`
-        --> `java -jar loader.jar ; & sleep 1s (./burpsuite)`
-
-
-### Command line
-
-Old
-
-> java -noverify -Dsun.java2d.d3d=false -Dsun.java2d.noddraw=true --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED -javaagent:BurpSuiteLoader.jar -jar burpsuite_pro.jar
-
-New
-
-> java  -noverify --add-opens=java.desktop/javax.swing=ALL-UNNAMED--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:$(pwd)/loader.jar -jar burpsuite_pro.jar
-
+### 2. Previous Java helper commander fallback (Parent Repo)
+```java -noverify -Dsun.java2d.d3d=false -Dsun.java2d.noddraw=true --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED -javaagent:$(pwd)/BurpSuiteLoader.jar -jar burpsuite_pro.jar
+```
 
 
 ## 📝 Discussion
 
 
 If you have questions or better suggestions on how to use it, you can ask [issue](https://github.com/m41k1n4177/BurpSuite/issues).
-
+NB! Be prepared to bear the full weight of responsibility for any incorrectly asked questions and general stupidity in my repository. 
 
 ## ❤️ Acknowledgements
 
-shout out to the guy that got pwnd/ratted so hard he decided to go out and comment in every random burp loader GitHub repo that he was infected
+The guy that got owned so hard he decided to go out and exclaim in every Burp loader repo of how much of a noob he is, ado how he managed to get infected from open source software.
+Shout out to this fmaily
+
+
