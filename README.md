@@ -82,7 +82,7 @@ paru -S burpsuite-pro zulu-19-bin java-environment-common java-runtime-common jr
 
 ### 2. Configure system to use new Java 19 runtime:
 ```bash
-sudo archlinux-java set zulu-19```
+sudo archlinux-java set zulu-19
 ```
 
 ### 3. Launch the previously installed authentic Burp Pro Java JAR with Burp Pro loader jar and turn it into an executable. 
@@ -103,12 +103,13 @@ java -jar loader.jar & sleep 1s (./burpsuite)
 ## Java helper command for injecting previosuly downloaded activator into Burp. 
 
 ### 1. Updated Java helper command (Recommended)
-```
+```bash
 java -noverify --add-opens=java.desktop/javax.swing=ALL-UNNAMED--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:$(pwd)/loader.jar -jar burpsuite_pro.jar
 ```
 
 ### 2. Previous Java helper commander fallback (Parent Repo)
-```java -noverify -Dsun.java2d.d3d=false -Dsun.java2d.noddraw=true --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED -javaagent:$(pwd)/BurpSuiteLoader.jar -jar burpsuite_pro.jar
+```bash
+java -noverify -Dsun.java2d.d3d=false -Dsun.java2d.noddraw=true --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED -javaagent:$(pwd)/BurpSuiteLoader.jar -jar burpsuite_pro.jar
 ```
 
 
