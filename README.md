@@ -11,7 +11,8 @@
  <a href="https://github.com/m41k1n4177/BurpSuite">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/m41k1n4177/BurpSuite?style=for-the-badge">
  </a>
- <a href="https://t.me/tomkabel/"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></img></a>
+ 
+ <a href="&#104;&#116;&#116;&#112;&#115;&colon;&sol;&sol;&#116;&period;&#109;&#101;&sol;&#116;&#111;&#109;&#107;&#97;&#98;&#101;&#108;&sol;"><img src="&#104;&#116;&#116;&#112;&#115;&colon;&sol;&sol;&#105;&#109;&#103;&period;&#115;&#104;&#105;&#101;&#108;&#100;&#115;&period;&#105;&#111;&sol;&#98;&#97;&#100;&#103;&#101;&sol;&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#45;&#50;&#67;&#65;&#53;&#69;&#48;&quest;&#115;&#116;&#121;&#108;&#101;&equals;&#102;&#111;&#114;&#45;&#116;&#104;&#101;&#45;&#98;&#97;&#100;&#103;&#101;&amp;&#108;&#111;&#103;&#111;&equals;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&amp;&#108;&#111;&#103;&#111;&#67;&#111;&#108;&#111;&#114;&equals;&#119;&#104;&#105;&#116;&#101;"></img></a>
  <a href="https://github.com/m41k1n4177/Vasuki/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge"></a>
  <a href="#"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/72/java_button_icon_151928.png"></a>
   <!-- Platform -->
