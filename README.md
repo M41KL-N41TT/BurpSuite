@@ -78,12 +78,12 @@ Choose the loader that works best for your requirements. If in doubt, opt for th
 ### 1. Install dependencies & highest supported Java runtime (19):
 
 ```bash
-paru -S burpsuite-pro zulu-19-bin java-environment-common java-runtime-common jre-openjdk jre17-openjdk archlinux-java-run --noconfirm
+paru -S burpsuite-pro java-environment-common java-runtime-common jre17-openjdk --noconfirm
 ```
 
-### 2. Configure system to use new Java 19 runtime:
+### 2. Configure system to use an older runtime:
 ```bash
-sudo archlinux-java set zulu-19
+sudo archlinux-java set java-17-openjdk
 ```
 
 ### 3. Launch the previously installed authentic Burp Pro Java JAR with Burp Pro loader jar and turn it into an executable. 
@@ -91,9 +91,9 @@ sudo archlinux-java set zulu-19
 echo "java --add-opens=java.desktop/javax.swing=ALL-UNNAMED--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:$(pwd)/loader.jar -noverify -jar /usr/share/burpsuite-pro/burpsuite-pro.jar &" | sudo tee -a burpsuite
 ```
 
-### 4. Specify new created executable with executable file;
+### 4. Specify new created executable with also executable file bits;
 ```bash
-chmod 777 burpsuite
+chmod +x burpsuite
 ```
 
 ### 5. Launch provided loader-activator, followed by launch of custom made burpsuite executable 
