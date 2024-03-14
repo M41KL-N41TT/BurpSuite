@@ -75,7 +75,7 @@ Choose the loader that works best for your requirements. If in doubt, opt for th
 ## Installation Steps for Burp Suite Professional on  <a href="https://archlinux.org"><img src="https://img.shields.io/badge/Arch_Linux-1793D1?&logo=arch-linux&logoColor=white"></a>
 
 
-### 1. Install dependencies & highest supported Java runtime (19): // TODO: Java 21 (see issue #8)
+### 1. Install dependencies & highest supported Java runtime (19): // TODO: Java 21 (see issue [#8](https://github.com/M41KL-N41TT/BurpSuite/issues/8))
 
 ```bash
 paru -S burpsuite-pro java-environment-common java-runtime-common jre17-openjdk --noconfirm
